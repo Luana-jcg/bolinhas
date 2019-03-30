@@ -1,4 +1,4 @@
-$(document).ready(function(){ /* quando o documento estiver carregado, executa o código que está dentro*/ 
+$(document).ready(function(){ /* quando o documento (DOM) estiver carregado, executa o código que está dentro*/ 
 
    $(".red").click(function(){
       $(this).fadeOut(); 
