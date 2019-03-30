@@ -1,7 +1,7 @@
 $(document).ready(function(){ /* quando o documento estiver carregado, executa o código que está dentro*/ 
 
    $(".red").click(function(){
-      $(".red").fadeOut(); 
+      $(this).fadeOut(); 
    });
    
    $(".green").click(function(){
